@@ -8,6 +8,7 @@ This code shows how to plot different types of neural data, using the example of
 2. In Matlab, navigate to the respository and open `see_neural_plot` 
 3. Change options if you'd like
 4. Run `see_neural_plot` (F5 / Run)
+5. Questions or comments are welcome: ask me on Twitter @ElDuvelle
 
 ### Disclaimer:
 - the code may not work (especially in Matlab versions < 2022b)
