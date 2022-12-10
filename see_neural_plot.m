@@ -28,9 +28,9 @@ close all
 options.order_cells = 1; % 1: ordered by median firing time; 0: original order
 options.show_cell_names = 0; % 1 to show individual cell names on ylabel
 options.show_mua_num = 1; % 1 to show candidate MUA numbers; 0 otherwise
-options.very_tight_plot = 1; % 1: no space between plots; 0: some space + title
+options.very_tight_plot = 0; % 1: no space between plots; 0: some space + title
 options.show_rip_env = 0; % 1 to add the ripple z-scored envelope on ripple plot (right axis)
-options.save_fig = 1; % if 1: saves the figure in current folder then
+options.save_fig = 0; % if 1: saves the figure in current folder then
 % closes it
 
 %% 2. Plotting parameters
