@@ -110,7 +110,7 @@ ind_plot = 1;
 
 %% 5.1 Plot speed
 all_axes{ind_plot} = nexttile();
-plot(tr_data.pot, tr_data.pov, 'k')
+plot(tr_data.pot, tr_data.pov, 'b')
 % Show line for low-speed threshold
 hold on
 yline(tr_data.params.speed_th, 'k:');
